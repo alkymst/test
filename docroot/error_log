@@ -1,0 +1,22 @@
+[18-Nov-2015 10:57:13 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/fee/public_html/content/plugins/1fee-core/includes/gf-cookie.php on line 109
+[18-Nov-2015 10:57:13 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/fee/public_html/content/plugins/1fee-core/includes/gf-cookie.php on line 109
+[28-Dec-2015 17:19:49 UTC] PHP Warning:  Cookie names cannot contain any of the following '=,; \t\r\n\013\014' in /home/fee/public_html/content/plugins/1fee-core/includes/gf-cookie.php on line 109
+[28-Dec-2015 17:19:49 UTC] PHP Warning:  Cookie names cannot contain any of the following '=,; \t\r\n\013\014' in /home/fee/public_html/content/plugins/1fee-core/includes/gf-cookie.php on line 109
+[28-Dec-2015 17:19:49 UTC] PHP Warning:  Cookie names cannot contain any of the following '=,; \t\r\n\013\014' in /home/fee/public_html/content/plugins/1fee-core/includes/gf-cookie.php on line 109
+[28-Dec-2015 17:19:49 UTC] PHP Warning:  Cookie names cannot contain any of the following '=,; \t\r\n\013\014' in /home/fee/public_html/content/plugins/1fee-core/includes/gf-cookie.php on line 109
+[28-Dec-2015 17:19:49 UTC] PHP Warning:  Cookie names cannot contain any of the following '=,; \t\r\n\013\014' in /home/fee/public_html/content/plugins/1fee-core/includes/gf-cookie.php on line 109
+[12-Jan-2016 14:09:21 UTC] 
+wpMandrill::wp_mail_native: masterliveryservive@yahoo.com (Thanks for contacting us.)
+
+[29-Jan-2016 13:20:10 UTC] wpMandrill Error: Error : 
+[29-Jan-2016 13:20:10 UTC] 2016-01-29 13:20:10 wpMandrill::sendEmail: Exception Caught => wpMandrill Error: : 
+
+[29-Jan-2016 13:20:10 UTC] 
+wpMandrill::wp_mail_native: sales@newmediadenver.com (New submission from General Contact)
+
+[29-Jan-2016 13:20:13 UTC] wpMandrill Error: Error : 
+[29-Jan-2016 13:20:13 UTC] 2016-01-29 13:20:13 wpMandrill::sendEmail: Exception Caught => wpMandrill Error: : 
+
+[29-Jan-2016 13:20:13 UTC] 
+wpMandrill::wp_mail_native: Natashiajobs@yahoo.com (Thanks for contacting us.)
+

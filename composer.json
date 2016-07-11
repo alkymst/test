@@ -1,0 +1,100 @@
+{
+  "name": "newmediadenver/wp",
+  "type": "project",
+  "license": "MIT",
+  "description": "RiotLabs / NewMedia's WordPress stack",
+  "homepage": "https://github.com/newmediadenver/wp",
+  "authors": [
+    {
+      "name": "Nathan Smith",
+      "email": "webalkymst@gmail.com",
+      "homepage": "https://github.com/alkymst"
+    }
+  ],
+  "keywords": [
+    "wordpress", "stack", "composer", "vagrant", "wp"
+  ],
+  "support": {
+    "issues": "https://github.com/newmediadenver/wp/issues"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityforms",
+        "type": "wordpress-plugin",
+        "version": "1.9.9.8",
+        "source": {
+          "url": "git@github.com:gravityforms/gravityforms.git",
+          "type": "git",
+          "reference": "40c8234759f21504099c7e27021d443670d3fdf6"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "acf",
+        "type": "wordpress-plugin",
+        "version": "5.1.9.1",
+        "source": {
+          "url": "git@github.com:newmediadenver/wp-acf.git",
+          "type": "git",
+          "reference": "faf1830ca6a0be65c1a87fc095e5fa6b793d59e0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wpcli-acf",
+        "type": "wordpress-plugin",
+        "version": "1.2.1",
+        "source": {
+          "url": "git@github.com:hoppinger/advanced-custom-fields-wpcli.git",
+          "type": "git",
+          "reference": "efc9e11b098ad266be5ba2110eec6ff02f5175da"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mu-plugins",
+        "type": "wordpress-muplugin",
+        "version": "1.0.0",
+        "source": {
+          "url": "git@github.com:newmediadenver/wp-mu-plugins.git",
+          "type": "git",
+          "reference": "d4ed90ded94a065bcce088892787baafab152930"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "johnpbloch/wordpress": "4.1.1",
+    "composer/installers": "v1.0.12",
+    "vlucas/phpdotenv": "1.0.9",
+    "gravityforms": "1.9.9.8",
+    "acf": "5.1.9.1",
+    "wpcli-acf": "1.2.1",
+    "wpackagist-plugin/wordpress-seo": "1.7.3.3",
+    "wpackagist-plugin/w3-total-cache": "0.9.4.1"
+  },
+  "extra": {
+    "installer-paths": {
+      "docroot/content/{$name}/": ["type:wordpress-muplugin"],
+      "docroot/content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "docroot/content/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "docroot/wp"
+  }
+}

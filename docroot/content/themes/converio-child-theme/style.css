@@ -1,0 +1,288 @@
+/*
+Theme Name: Converio Child Theme
+Theme URI: http: http://thememotive.com/
+Description: Child theme is the recommended way to modify an existing theme if you want to make changes in the theme.
+Author: ThemeMotive
+Author URI: http://thememotive.com/
+Template: converio
+Version: 1.0.0
+*/
+
+@import url("../converio/style.css");
+
+/*Add your custom styles below:*/
+
+
+.h1 .main-header .title img {
+  max-height: 73px;
+}
+@media screen and (min-width: 646px) {
+  .h1 .main-header .title img {
+    max-height: 72px;
+  }
+}
+
+
+.h1 .main-header .nav-container {
+  position: relative;
+}
+
+.h1 .main-header .mobile-group {
+  text-align: center;
+}
+@media screen and (min-width: 646px) {
+  .h1 .main-header .mobile-group {
+    margin-top: 15px;
+  }
+}
+
+.h1 .main-header .mobile-group .btn-navbar {
+
+  width: 100%;
+  text-indent: 40px;
+  color: #777;
+  background-position: 42% center;
+
+}
+/*
+@media screen and (min-width: 400px) {
+  .h1 .main-header .mobile-group .btn-navbar {
+    background-position: 45% center;
+  }
+}
+*/
+@media screen and (min-width: 646px) {
+  .h1 .main-header .mobile-group .btn-navbar {
+    background-position: 25% center;
+  }
+}
+
+
+.h1 .main-header .contact-telephone {
+  text-align: center;
+}
+@media screen and (min-width: 646px) {
+
+  .h1 .main-header .contact-telephone {
+    position: absolute;
+    text-align: right;
+    right: 0;
+    margin-top: 4px;
+    z-index: 1000;
+  }
+}
+
+.h1 .main-header .contact-telephone p {
+  margin-bottom: 0px;
+}
+
+.h1 .main-header .contact-telephone .small-text {
+  font-size: 80%;
+}
+.h1 .main-header .contact-telephone .telephone {
+  font-size: 110%;
+}
+#lbp-inline-href-2 #gform_wrapper_1{
+  max-width: 150% !important;
+}
+#lbp-inline-href-2 #gform_wrapper_1 #input_1_5{
+  max-width: 100% !important;
+}
+
+
+
+
+
+#colorbox {}
+#cboxWrapper {
+  max-height: 90%;
+  border-top: 30px solid #49a9c2;
+}
+#cboxContent #cboxClose {
+  bottom: 25px;
+}
+#cboxContent input, #cboxContent textarea, #cboxContent select {
+  border: none;
+  background: #e3e3e3;
+  padding: 4px;
+}
+
+#cboxContent .gform_button {
+  width: 100%;
+  background: #49a9c2;
+  color: #fff;
+}
+
+
+
+.modal-box {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  width: 98%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+}
+@media (min-width: 32em) {
+
+.modal-box { width: 60%; }
+}
+
+.modal-box header,
+.modal-box .modal-header {
+  padding: 1.25em 1.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-box header h3,
+.modal-box header h4,
+.modal-box .modal-header h3,
+.modal-box .modal-header h4 { margin: 0; }
+
+.modal-box .modal-body {
+  padding: 1.5em;
+  height: 100%;
+  max-height:80vh;
+  overflow:scroll;
+  *zoom: 1;
+}
+.modal-box .modal-body:before,
+.modal-box .modal-body:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.modal-box .modal-body:after {
+  clear: both;
+}
+
+
+.modal-box .modal-body .left {
+  display: none;
+}
+
+@media screen and (min-width: 1100px) {
+  .modal-box .modal-body .left {
+    display: block;
+    width: 40%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 75vh;
+    margin-right: 2%;
+  }
+}
+
+
+.modal-box .modal-body .right {
+  width: 100%;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 1100px) {
+  .modal-box .modal-body .right {
+    padding-top: 0px;
+    width: 50%;
+    float: left;
+  }
+}
+
+
+.modal-box footer,
+.modal-box .modal-footer {
+  padding: 1em;
+  border-top: 1px solid #ddd;
+  background: rgba(0, 0, 0, 0.02);
+  text-align: right;
+}
+
+.modal-overlay {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+.modal-box a.close {
+  line-height: 1;
+  font-size: 1.5em;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  text-decoration: none;
+  color: #bbb;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 8px 4px;
+}
+
+.modal-box a.close:hover {
+  color: #222;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+
+
+.modal-box .gform_button {
+  color: #fff;
+  height: 46px !important;
+  line-height: 46px !important;
+  padding: 0 20px !important;
+  font-size: 14px !important;
+  /*font-weight: bold;*/
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+  background: #99d575;
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 0px;
+  margin: 0px 6.44px 0px 0px;
+  border-width: 0px;
+  transition: all 0.15s ease-out 0s;
+
+}
+
+
+
+#seogroup {
+  min-height: 65vh;
+}
+#seogroup #seogroup-embed-title {
+  line-height: 1.2em;
+}
+#seogroup .seo-scorform .form .form-group #seogroup-form-url,
+#seogroup .seo-scorform .form .form-group #seogroup-form-keyword {
+  width: 100% !important;
+  margin-bottom: 10px !important;
+}
+#seogroup .seo-scorform .form #btn_competitor_url {
+  position: static !important;
+}
+#seogroup .seo-scorform .textform-div {
+  width: 80% !important;
+}
+#seogroup .seo-scorform .form #seogroup-form-email,
+#seogroup .seo-scorform .form input[type="text"],
+#seogroup .seo-scorform .form input[type="submit"] {
+  width: 100% !important;
+}
+body.page-id-3795 .entry-share {
+  display: none;
+}
+
+/* Social Media */
+.entry-share{
+  position: relative;
+  left: 34%;
+}
