@@ -87,7 +87,7 @@
     "acf": "5.1.9.1",
     "wpcli-acf": "1.2.1",
     "wpackagist-plugin/wordpress-seo": "1.7.3.3",
-    "wpackagist-plugin/w3-total-cache": "0.9.4.1"
+    "wpackagist-plugin/unbounce": "1.0.18"
   },
   "extra": {
     "installer-paths": {

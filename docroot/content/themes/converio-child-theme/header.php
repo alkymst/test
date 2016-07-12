@@ -97,6 +97,9 @@
 		<script src="<?php echo get_template_directory_uri();?>/js/html5.js"></script>
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/styles/style-ie.css" media="screen"></script>
 	<![endif]-->
+  <script type="text/javascript">
+(function(a,e,c,f,g,b,d){var h={ak:"952758554",cl:"5VlfCIWGiWQQmuKnxgM"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[f]||(a[f]=h.ak);b=e.createElement(g);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(g)[0];d.parentNode.insertBefore(b,d);a._googWcmGet=function(b,d,e){a[c](2,b,h,d,null,new Date,e)}})(window,document,"_googWcmImpl","_googWcmAk","script");
+</script>
 </head>
 
 <?php
@@ -212,7 +215,7 @@ if(get_theme_mod('header_type') && (get_theme_mod('header_type') == 11 || get_th
 ?>
 
 
-<body <?php body_class($body_classes); ?>><div class="root">
+<body onload="_googWcmGet('telephone', '1-844-')" <?php body_class($body_classes); ?>><div class="root">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
